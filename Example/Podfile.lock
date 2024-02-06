@@ -1,0 +1,16 @@
+PODS:
+  - OctopusSDK (1.5.9.9)
+
+DEPENDENCIES:
+  - OctopusSDK (from `../`)
+
+EXTERNAL SOURCES:
+  OctopusSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OctopusSDK: bd3e32ddf79b6eb56d40a183e738fc71ae7cfcca
+
+PODFILE CHECKSUM: 4267f117ca584feb0185c82ee13c2fe6401438bb
+
+COCOAPODS: 1.12.1
