@@ -15,7 +15,8 @@ it, simply add the following line to your Podfile:
 pod 'OctopusSDK'
 ```
 
-##工程设置
+## 工程设置
+
 在other linker flags中，OctCore需要使用-force_load, 进行强制加载， 否则会有类别文件加载不全的问题：
 
 -force_load
