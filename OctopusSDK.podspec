@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
 TODO: Add long description of the pod here.
                    DESC
 
-  spec.homepage     = "https://gitee.com/it2699/octopus-sdk.git"
+  spec.homepage     = "https://github.com/octopusmobile/OctopusSDK.git"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
   spec.author             = { "zhaojinlong" => "zhaojinlong@adintl.cn" }
@@ -19,7 +19,7 @@ TODO: Add long description of the pod here.
 
   spec.source       = {:git => 'https://github.com/octopusmobile/OctopusSDK.git', :tag => spec.version}
 
-  spec.source_files = 'OctopusSDK/Classes/**/*.{h,m}','OctopusSDK/OctAdSDK.framework/Headers/*.h'
-  spec.vendored_frameworks = 'OctopusSDK/*.framework'
+  spec.source_files = 'OctopusSDK/Classes/**/*.{h,m}','OctopusSDK/OctAdSDK.xcframework/ios-arm64/OctAdSDK.framework/Headers/*.h'
+  spec.vendored_frameworks = 'OctopusSDK/*.xcframework'
 
 end
