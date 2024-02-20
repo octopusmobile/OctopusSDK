@@ -20,6 +20,7 @@ pod 'OctopusSDK'
 OctCore.xcframework中的某些类别文件会有加载不全的问题，这里给出2中解决方案：
 
 1。在other linker flags中，使用-force_load, 进行强制加载
+
 -force_load
 $(PROJECT_DIR)/Pods/OctopusSDK/OctopusSDK/OctCore.xcframework/ios-arm64/OctCore.framework/OctCore
 
