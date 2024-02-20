@@ -16,7 +16,8 @@ Pod::Spec.new do |spec|
   
   spec.platform     = :ios, "10.0"
   spec.static_framework = true
-  spec.frameworks = 'SystemConfiguration', 'CoreGraphics','Foundation','UIKit'
+  spec.libraries = ["c++"]
+  spec.frameworks = 'SystemConfiguration', 'CoreGraphics','Foundation','UIKit', 'AppTrackingTransparency'
   
   
   spec.source       = {:git => 'https://github.com/octopusmobile/OctopusSDK.git', :tag => spec.version}
