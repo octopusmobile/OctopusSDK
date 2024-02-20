@@ -274,6 +274,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) OctPosition *position;
 @property (nonatomic, assign) NSInteger rotatAmplitude;
+@property (nonatomic, assign) float accelerometerValue; //加速度
 @property (nonatomic, assign) NSInteger rotatCount;
 @property (nonatomic, assign) NSInteger shakeCount;
 @property (nonatomic, assign) CGFloat shakeEndAmplitude;
