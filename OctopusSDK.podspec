@@ -15,6 +15,8 @@ Pod::Spec.new do |spec|
   spec.author             = { "zhaojinlong" => "zhaojinlong@adintl.cn" }
   
   spec.platform     = :ios, "10.0"
+  spec.static_framework = true
+  spec.frameworks = 'SystemConfiguration', 'CoreGraphics','Foundation','UIKit'
   
   
   spec.source       = {:git => 'https://github.com/octopusmobile/OctopusSDK.git', :tag => spec.version}
@@ -23,7 +25,6 @@ Pod::Spec.new do |spec|
   
   spec.subspec 'OctopusBaseSDK' do |ss|
     ss.ios.deployment_target = '10.0'
-    ss.source_files = 'OctopusSDK/Classes/**/*'
     ss.vendored_frameworks = 'OctopusSDK/OctAdSDK.xcframework', 'OctopusSDK/OctCore.xcframework'
   end
 end
