@@ -1,16 +1,18 @@
 PODS:
-  - OctopusSDK (1.5.9.10)
+  - OctopusSDK (1.5.9.11):
+    - OctopusSDK/OctopusBaseSDK (= 1.5.9.11)
+  - OctopusSDK/OctopusBaseSDK (1.5.9.11)
 
 DEPENDENCIES:
-  - OctopusSDK
+  - OctopusSDK (from `../`)
 
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - OctopusSDK
+EXTERNAL SOURCES:
+  OctopusSDK:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  OctopusSDK: 02ef18692c53f3e6e70c535c5ad7a66f282259fc
+  OctopusSDK: b078123a5b92b9e09271d654bfed0218617f693e
 
-PODFILE CHECKSUM: 3157462eea9a2b6799ae4b5372d156eafbf29910
+PODFILE CHECKSUM: 8fdd76db1c9d8545c3fdc45bae592d60211cb302
 
 COCOAPODS: 1.12.1
