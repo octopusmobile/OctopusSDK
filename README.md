@@ -11,8 +11,16 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 OctopusSDK is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
+广告SDK安装
+
 ```ruby
 pod 'OctopusSDK'
+```
+
+百度网盘定制SDK安装
+
+```ruby
+pod 'OctopusSDK/OctAdSDKNoShake'
 ```
 
 ## 工程设置
