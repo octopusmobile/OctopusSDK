@@ -27,6 +27,12 @@ NS_ASSUME_NONNULL_BEGIN
                                                backQueueName:(dispatch_queue_t)backQueueName
                                                 successBlock:(OctResponseSuccess)successBlock
                                                 failureBlock:(OctResponseFail)failureBlock;
++ (OctURLSessionDataTask *)HTTPSerializerPOSTWithUrlString:(NSString *)urlString
+                                                  parameters:(id)parameters
+                                               backQueueName:(dispatch_queue_t)backQueueName
+                                                   timeOut: (double)timeInterval
+                                                successBlock:(OctResponseSuccess)successBlock
+                                              failureBlock:(OctResponseFail)failureBlock;
 
 /**
  正常GET请求

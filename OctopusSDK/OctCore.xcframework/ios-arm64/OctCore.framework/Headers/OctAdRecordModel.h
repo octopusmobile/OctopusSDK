@@ -39,6 +39,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *paid;
 //idfv信息
 @property (nonatomic, copy) NSString *idfv;
+//超时时间，默认5s
+@property (nonatomic, assign) double timeoutInterval;
 
 
 

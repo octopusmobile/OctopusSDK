@@ -11,9 +11,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface OctPrivacyModel : NSObject
 
-/**  是否允许读取IDFA 默认允许 0 拒绝，1 允许  **/
-@property (nonatomic, assign) BOOL isCanReadIDFA;
-
 /**  是否允许个性化广告推荐 默认允许 0 拒绝，1 允许  **/
 @property (nonatomic, assign) BOOL isLimitPersonalAds;
 

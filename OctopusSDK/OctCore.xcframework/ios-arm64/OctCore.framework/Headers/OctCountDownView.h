@@ -8,6 +8,7 @@
 #import <UIKit/UIKit.h>
 #import "OctConfigureModel.h"
 
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
@@ -41,6 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL manualClosable;
 @property (nonatomic, assign) NSInteger maxTime;
 @property (nonatomic, assign) NSInteger minTime;
+@property (nonatomic, strong) UIColor *startTitleColor;
 
 @end
 

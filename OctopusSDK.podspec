@@ -34,4 +34,8 @@ Pod::Spec.new do |spec|
     ss.dependency 'AnyThinkiOS'
     ss.dependency 'OctopusSDK/OctopusBaseSDK'
   end
+  spec.subspec 'OctAdSDKNoShake' do |ss|
+    ss.ios.deployment_target = '10.0'
+    ss.vendored_frameworks = 'OctopusSDK/OctAdSDKNoShake.xcframework', 'OctopusSDK/OctCore.xcframework'
+  end
 end

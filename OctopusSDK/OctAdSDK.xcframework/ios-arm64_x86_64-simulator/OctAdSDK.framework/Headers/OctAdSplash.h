@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 // 开屏初始化
 - (instancetype)initWithSlotId:(NSString *)slotId;
+// 开屏初始化, 可以指定超时时间，单位：s
+- (instancetype)initWithSlotId:(NSString *)slotId timeOut:(double)timeoutInterval;
 
 // 加载开屏广告
 - (void)loadAd;

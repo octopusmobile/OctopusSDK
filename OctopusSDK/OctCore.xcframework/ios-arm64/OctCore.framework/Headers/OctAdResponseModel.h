@@ -219,7 +219,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface OctShakeEvent : OctBaseModel
 
-@property(nonatomic, assign) NSInteger sr;
+@property(nonatomic, assign) float sr;
+@property(nonatomic, assign) float ang;
 @property(nonatomic, assign) NSInteger v;
 @property(nonatomic, copy) NSString *tx;
 

@@ -24,6 +24,11 @@ NS_ASSUME_NONNULL_BEGIN
                                  requestURL:(NSString *)requestURL
                                successBlock:(OctResponseSuccessWithModel)successBlock
                                failureBlock:(OctResponseFailWithError)failureBlock;
+- (void)beginAdvertisingHTTPRequestWithData:(NSData *)data
+                                 requestURL:(NSString *)requestURL
+                                    timeOut: (double)timeInterval
+                               successBlock:(OctResponseSuccessWithModel)successBlock
+                               failureBlock:(OctResponseFailWithError)failureBlock;
 
 //发起其它本公司的服务请求
 - (void)beginCommonHTTPRequestWithData:(NSData *)data

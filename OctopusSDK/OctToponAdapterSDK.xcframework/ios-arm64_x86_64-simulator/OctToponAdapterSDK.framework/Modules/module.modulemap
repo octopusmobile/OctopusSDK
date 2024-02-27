@@ -1,6 +1,0 @@
-framework module OctToponAdapterSDK {
-  umbrella header "OctToponAdapterSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}
