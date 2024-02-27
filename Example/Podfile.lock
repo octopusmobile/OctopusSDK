@@ -2,8 +2,8 @@ PODS:
   - AnyThinkiOS (6.2.94):
     - AnyThinkiOS/AnyThinkSDK (= 6.2.94)
   - AnyThinkiOS/AnyThinkSDK (6.2.94)
-  - OctopusSDK/OctopusBaseSDK (1.5.9.12)
-  - OctopusSDK/OctToponAdapterSDK (1.5.9.12):
+  - OctopusSDK/OctopusBaseSDK (1.5.9.13)
+  - OctopusSDK/OctToponAdapterSDK (1.5.9.13):
     - AnyThinkiOS
     - OctopusSDK/OctopusBaseSDK
 
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AnyThinkiOS: d20b81a5612ee7b2de905fd65d2bde227813abce
-  OctopusSDK: ed52e4fe4c5c55ba6686c38a967dc4d0987a8a38
+  OctopusSDK: 0437e9bc14105be3aca555a11c252c008ea551be
 
 PODFILE CHECKSUM: 976142614411dd01a99c6d43d097adf7071700d3
 
