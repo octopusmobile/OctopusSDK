@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   
   spec.name         = "OctopusSDK"
-  spec.version      = "1.5.9.13"
+  spec.version      = "1.5.9.14"
   spec.summary      = "OctopusSDK"
   
   
@@ -36,6 +36,6 @@ Pod::Spec.new do |spec|
   end
   spec.subspec 'OctAdSDKNoShake' do |ss|
     ss.ios.deployment_target = '10.0'
-    ss.vendored_frameworks = 'OctopusSDK/OctAdSDKNoShake.xcframework', 'OctopusSDK/OctCore.xcframework'
+    ss.vendored_frameworks = 'OctopusSDKNoShake/OctAdSDK.xcframework', 'OctopusSDK/OctCore.xcframework'
   end
 end
