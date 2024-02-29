@@ -34,23 +34,23 @@
 		</data>
 		<key>Headers/OctNativeAdDataModel.h</key>
 		<data>
-		jDNhk3dNwxTzgTsWd1Wxi2b97Vs=
+		uevOPEcfQeHQ+jskyrDg2e8RMvI=
 		</data>
 		<key>Headers/OctSplashImageViewController.h</key>
 		<data>
-		ZSHM2Fb+/ouzWA9srg45qG+yPnI=
+		gxvw4n2QYyw/YVT/cHQXAXzTmrE=
 		</data>
 		<key>Headers/OctSplashPlayerViewController.h</key>
 		<data>
-		lHwsRwms8zpS7mbii3Ww+PnplWs=
+		+BJ7PPKTofJT7FZZK7qAkeHBpv0=
 		</data>
 		<key>Headers/OctSplashWebViewController.h</key>
 		<data>
-		rUSl0q3oX6K4JQNJe9n/7dW50Nc=
+		Wr+AJ3pOguukzjUnOFe2q7+b1NA=
 		</data>
 		<key>Headers/OctopusBaseAd.h</key>
 		<data>
-		TGJtZTdPAjMLg6IgeZhB15/eKnI=
+		0tTVVqDdU3OgXkAs1mKI+4CGcZ0=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -144,55 +144,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jDNhk3dNwxTzgTsWd1Wxi2b97Vs=
+			uevOPEcfQeHQ+jskyrDg2e8RMvI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ls9B6PXWlSgoY3nTLFAsePxEq7iXCwDPmgN/5q+1r74=
+			3CWDNyfpKI5RavA+Eq7r3Vequrf4AoG7/q2eTmR0vYw=
 			</data>
 		</dict>
 		<key>Headers/OctSplashImageViewController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZSHM2Fb+/ouzWA9srg45qG+yPnI=
+			gxvw4n2QYyw/YVT/cHQXAXzTmrE=
 			</data>
 			<key>hash2</key>
 			<data>
-			wFZVXEH+gkbjdnNH1WDzoz0tyog2qIfTWZslfCe0iDg=
+			vyqXXj7TOCTSoU8UEclqrISyNZz+gTHB+xtEWQb1IeY=
 			</data>
 		</dict>
 		<key>Headers/OctSplashPlayerViewController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lHwsRwms8zpS7mbii3Ww+PnplWs=
+			+BJ7PPKTofJT7FZZK7qAkeHBpv0=
 			</data>
 			<key>hash2</key>
 			<data>
-			HOWRzPIdjpSqzI1sGDUhLO9x5/lXO0/QuAqaKGR3MKY=
+			K0Lw2guAoY8yVxb/L5QeV8Iyf7LH6sh29eSfEcV9bJM=
 			</data>
 		</dict>
 		<key>Headers/OctSplashWebViewController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rUSl0q3oX6K4JQNJe9n/7dW50Nc=
+			Wr+AJ3pOguukzjUnOFe2q7+b1NA=
 			</data>
 			<key>hash2</key>
 			<data>
-			FPlgzXT5SVvnf+BaHIDT7sABxVgqiYfGq45zHLKQRX4=
+			jcE6nFjtY/7OXU2QzAyzS+wmfgXHG0CohoZEha8PdNU=
 			</data>
 		</dict>
 		<key>Headers/OctopusBaseAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TGJtZTdPAjMLg6IgeZhB15/eKnI=
+			0tTVVqDdU3OgXkAs1mKI+4CGcZ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			1iqMjfvB4IRuHnspxtniPv/76DZd3Esr531VWxG7YwQ=
+			g4hTB8iCftOqEppg0ZDv59/mGM6mW4Y0uQKeEv3uS7A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

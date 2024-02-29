@@ -9,7 +9,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class OctSDKResponseModel;
+@class OctResponseModel;
+@class OctSpaceInfoModel;
 
 @interface OctNativeAdDataModel : NSObject
 
@@ -23,6 +24,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, readonly) NSArray *octTexts;
 //  广告视频素材
 @property (nonatomic, strong, readonly) NSArray *octVideos;
+//  广告位宽
+@property (nonatomic, assign, readonly) NSInteger octWidth;
+//  广告位高
+@property (nonatomic, assign, readonly) NSInteger octHeight;
 
 
 // 由于广告法规定，必须添加logo，（建议：广告图片放置在广告的左下角，logo放置在广告的右下角）
@@ -43,7 +48,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  SDK内部方法，无需调用与使用
  */
-- (instancetype)initWithData:(OctSDKResponseModel *)octAdResponse;
+- (instancetype)initWithData:(OctResponseModel *)octAdResponse octSpaceInfoModel:(OctSpaceInfoModel*)spaceInfo;
 
 @end
 

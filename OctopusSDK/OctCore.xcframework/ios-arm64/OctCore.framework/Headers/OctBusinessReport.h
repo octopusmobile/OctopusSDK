@@ -45,6 +45,11 @@ typedef NS_ENUM(NSUInteger, OctAdClickType) {
 //  上报点击
 - (void)oct_reportClickView:(OctAdClickType)clickType;
 - (void)oct_reportDeepLink:(OctAdClickType)clickType;
+// 上报竞价成功
+- (void)oct_reportWinPrice:(NSString*)secondPrice;
+// 上报竞价失败
+- (void)oct_reportLossPrice:(NSString*)winPrice loseReason:(NSString*)reason winBidder:(NSString *)bidder;
+
 
 //  刷新上报状态
 - (void)oct_refreshReportStatus;

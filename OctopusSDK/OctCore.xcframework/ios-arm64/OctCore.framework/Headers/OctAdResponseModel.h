@@ -70,10 +70,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *slotId;
 //  预留字段
 @property (nonatomic, copy) NSString *spaceParam;
-//  广告位宽，带单位, "%"结尾表示按对应方向的百分比展示，X轴范围
+//  广告位宽，X轴范围
 @property (nonatomic, copy) NSString *width;
-//  广告位高，同上，Y轴范围
+//  广告位高
 @property (nonatomic, copy) NSString *height;
+//保留原始宽高
+@property (nonatomic, copy) NSString *backupsWidth;
+@property (nonatomic, copy) NSString *backupsHeight;
 //  用户交互配置
 @property (nonatomic, strong) OctInterEventModel *interEvent;
 //  是否自动关闭 0 不可以 1 可以
@@ -199,6 +202,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, copy) NSString *onRecover;
 //  视频播放完成通知URL
 @property(nonatomic, copy) NSString *onFinish;
+//  竞价成功
+@property(nonatomic, copy) NSString *nurl;
+//  竞价失败
+@property(nonatomic, copy) NSString *lurl;
 
 @end
 

@@ -32,6 +32,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)reportDeepLink;
 
+// 上报竞价成功
+- (void)oct_reportWinPrice:(NSString*)secondPrice;
+
+// 上报竞价失败
+- (void)oct_reportLossPrice:(NSString*)winPrice loseReason:(NSString*)reason winBidder:(NSString *)bidder;
+
 //- (void)isCloseAdNextButton;
 
 @end
