@@ -21,6 +21,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 // 原生初始化
 - (instancetype)initWithSlotId:(NSString *)slotId;
+// isSelfRender：是否是自渲染。 默认为NO； 如果设置为YES， 那么就需要开发者自己渲染视图了， nativeAdViews将无效
+- (instancetype)initWithSlotId:(NSString *)slotId isSelfRender:(BOOL)isSelfRender;
 
 // 加载广告
 - (void)loadAd;
@@ -34,11 +36,8 @@ NS_ASSUME_NONNULL_BEGIN
 // 广告加载成功后获得的 View广告（数组内部为加载完成的View形式广告，直接add到目标View）
 @property (nonatomic, strong, readonly) NSArray *nativeAdViews;
 
-//是否是自渲染, 如果设置为YES， 那么nativeAdViews就无效了
-@property (nonatomic, assign) BOOL isSelfRender;
-//isSelfRender = YES时， 下面的3个方法有效
-- (void)bindVieWithContainer:(UIView *)containerView clickableViews:(NSArray *)clickableViews;
-- (void)addADCloseTarget:(UIView*)targetView;
+//是否是自渲染。 默认为NO； 如果设置为YES， 那么就需要开发者自己渲染视图了， nativeAdViews将无效
+@property (nonatomic, readonly) BOOL isSelfRender;
 
 @end
 

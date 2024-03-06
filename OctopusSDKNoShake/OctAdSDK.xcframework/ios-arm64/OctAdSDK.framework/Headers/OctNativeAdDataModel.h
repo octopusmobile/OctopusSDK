@@ -41,8 +41,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, readonly) NSString *octLogoLabel;
 
 
-// 绑定展示视图和点击View
+// 绑定展示视图和广告点击View（该视图点击可以跳转到落地页）
 - (void)bindVieWithContainer:(UIView *)containerView clickableViews:(NSArray *)clickableViews;
+// 添加关闭视图（该视图点击，可以关闭广告）
+- (void)addADCloseTarget:(UIView*)targetView;
 
 
 /**
