@@ -23,6 +23,13 @@ pod 'OctopusSDK'
 pod 'OctopusSDK/OctAdSDKNoShake'
 ```
 
+Topon适配器SDK安装
+
+```ruby
+pod 'OctopusSDK/OctToponAdapterSDK'
+```
+
+
 ## 工程设置
 
 OctCore.xcframework中的某些类别文件会有加载不全的问题，这里给出2种解决方案：
