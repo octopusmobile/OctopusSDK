@@ -11,10 +11,15 @@
 #endif
 
 #import "OctToponBannerAdapter.h"
+#import "OctToponBannerCustomEvent.h"
 #import "OctToponBaseAdapter.h"
 #import "OctToponInterstitialAdapter.h"
+#import "OctToponInterstitialCustomEvent.h"
 #import "OctToponNativeAdapter.h"
+#import "OctToponNativeCustomEvent.h"
+#import "OctToponNativeRenderer.h"
 #import "OctToponRewardedVideoAdapter.h"
+#import "OctToponRewardedVideoCustomEvent.h"
 #import "OctToponSplashAdapter.h"
 #import "OctToponSplashCustomEvent.h"
 

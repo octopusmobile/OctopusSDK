@@ -24,9 +24,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, readonly) NSArray *octTexts;
 //  广告视频素材
 @property (nonatomic, strong, readonly) NSArray *octVideos;
-//  广告位宽
+//  广告素材宽
 @property (nonatomic, assign, readonly) NSInteger octWidth;
-//  广告位高
+//  广告素材高
 @property (nonatomic, assign, readonly) NSInteger octHeight;
 
 
