@@ -40,7 +40,5 @@
 	<string>XFWK</string>
 	<key>XCFrameworkFormatVersion</key>
 	<string>1.0</string>
-	<key>MinimumOSVersion</key>
-	<string>10</string>
 </dict>
 </plist>
