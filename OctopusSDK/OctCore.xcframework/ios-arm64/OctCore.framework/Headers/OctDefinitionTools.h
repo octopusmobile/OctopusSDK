@@ -4,6 +4,9 @@
 //
 //  Created by guantou on 2019/12/10.
 //
+
+#import "UIView+OctAddition.h"
+
 #ifndef OctDefinitionTools_h
 #define OctDefinitionTools_h
 
@@ -35,7 +38,7 @@ CGFloat z = _x_*oct_multiple;\
 #define IPHONE_X \
 ({BOOL isPhoneX = NO;\
 if (@available(iOS 11.0, *)) {\
-isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\
+isPhoneX = [UIView oct_lastWindow].safeAreaInsets.bottom > 0.0;\
 }\
 (isPhoneX);})
 
