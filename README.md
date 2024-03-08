@@ -32,8 +32,8 @@ pod 'OctopusSDK/OctToponAdapterSDK'
 
 ## 工程设置
 
-有的项目中可能会遇到下面的报错：
--[__NSCFString Oct_MD5String]: unrecognized selector sent to instance
+有的项目中可能会遇到类似下面的报错：
+-[__NSCFString Oct_方法名]: unrecognized selector sent to instance
 这是由于OctCore.xcframework中的某些类别文件加载不全造成的，这里给出2种解决方案：
 
 1。在other linker flags中，使用-force_load, 进行强制加载
