@@ -126,7 +126,7 @@
 		</data>
 		<key>Headers/OctCore-umbrella.h</key>
 		<data>
-		63OltT8ORY77wWlBIDNutywqNbE=
+		t7ZSgP4lshC5QEWEGO6SKZQTGFs=
 		</data>
 		<key>Headers/OctCore.h</key>
 		<data>
@@ -171,6 +171,10 @@
 		<key>Headers/OctGTMDefines.h</key>
 		<data>
 		cqUEpe0O3sNDgxpF/bcBIYSpBss=
+		</data>
+		<key>Headers/OctGcdTimer.h</key>
+		<data>
+		YuGY/W/1N5bGA+DgdHI+C5vYv5k=
 		</data>
 		<key>Headers/OctGeoHelper.h</key>
 		<data>
@@ -673,11 +677,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			63OltT8ORY77wWlBIDNutywqNbE=
+			t7ZSgP4lshC5QEWEGO6SKZQTGFs=
 			</data>
 			<key>hash2</key>
 			<data>
-			vDH/SW0H2OufmbFVlnGCGyF/lDMBzjDxngv/LAttGds=
+			Jul+p4w90gSM13nfmM550ilnSQzvDCWgX6fC9Uq2e1s=
 			</data>
 		</dict>
 		<key>Headers/OctCore.h</key>
@@ -799,6 +803,17 @@
 			<key>hash2</key>
 			<data>
 			i0CubDUlq+gcO/Pp+Ooe6jxJ0h9/VJ+zC9ZySsvoGAw=
+			</data>
+		</dict>
+		<key>Headers/OctGcdTimer.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YuGY/W/1N5bGA+DgdHI+C5vYv5k=
+			</data>
+			<key>hash2</key>
+			<data>
+			JgAx37XcoUi8riqsbQqMshxcLjRVJ+Z3YCsiSdhreo8=
 			</data>
 		</dict>
 		<key>Headers/OctGeoHelper.h</key>

@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   
   spec.name         = "OctopusSDK"
-  spec.version      = "1.5.9.19"
+  spec.version      = "1.5.9.20"
   spec.summary      = "OctopusSDK"
   
   
@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   
   spec.author             = { "zhaojinlong" => "zhaojinlong@adintl.cn" }
   
-  spec.platform     = :ios, "10.0"
+  spec.platform     = :ios, "12.0"
   spec.static_framework = true
   spec.libraries = ["c++"]
   spec.frameworks = 'SystemConfiguration', 'CoreGraphics','Foundation','UIKit', 'AppTrackingTransparency'
@@ -25,17 +25,17 @@ Pod::Spec.new do |spec|
   spec.default_subspecs = 'OctopusBaseSDK'
   
   spec.subspec 'OctopusBaseSDK' do |ss|
-    ss.ios.deployment_target = '10.0'
+    ss.ios.deployment_target = '12.0'
     ss.vendored_frameworks = 'OctopusSDK/OctAdSDK.xcframework', 'OctopusSDK/OctCore.xcframework'
   end
   spec.subspec 'OctToponAdapterSDK' do |ss|
-    ss.ios.deployment_target = '10.0'
+    ss.ios.deployment_target = '12.0'
     ss.vendored_frameworks = 'OctopusSDK/OctToponAdapterSDK.xcframework'
     ss.dependency 'AnyThinkiOS'
     ss.dependency 'OctopusSDK/OctopusBaseSDK'
   end
   spec.subspec 'OctAdSDKNoShake' do |ss|
-    ss.ios.deployment_target = '10.0'
+    ss.ios.deployment_target = '12.0'
     ss.vendored_frameworks = 'OctopusSDKNoShake/OctAdSDK.xcframework', 'OctopusSDK/OctCore.xcframework'
   end
 end

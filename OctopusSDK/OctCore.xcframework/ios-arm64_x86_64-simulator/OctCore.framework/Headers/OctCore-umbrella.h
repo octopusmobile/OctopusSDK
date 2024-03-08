@@ -60,6 +60,7 @@
 #import "OctDefines.h"
 #import "OctDefinitionTools.h"
 #import "OctDevice.h"
+#import "OctGcdTimer.h"
 #import "OctNetworking.h"
 #import "OctCompatibilityMacros.h"
 #import "OctHTTPSessionManager.h"
