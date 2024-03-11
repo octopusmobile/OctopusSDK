@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   
   spec.name         = "OctopusSDK"
-  spec.version      = "1.5.9.21"
+  spec.version      = "1.5.9.22"
   spec.summary      = "OctopusSDK"
   
   
