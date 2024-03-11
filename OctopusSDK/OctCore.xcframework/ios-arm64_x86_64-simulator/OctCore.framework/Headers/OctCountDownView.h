@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import "OctConfigureModel.h"
+#import "OctAdvertisingType.h"
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -43,7 +44,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger maxTime;
 @property (nonatomic, assign) NSInteger minTime;
 @property (nonatomic, strong) UIColor *startTitleColor;
-
+//视频相关
+@property (nonatomic, assign) BOOL isVedioType;
+@property (nonatomic, assign) NSInteger vedioTotalTime;
+@property (nonatomic, assign) NSInteger vedioMaxTime;
+@property (nonatomic, readonly) NSInteger leftVedioTime;
 @end
 
 NS_ASSUME_NONNULL_END
