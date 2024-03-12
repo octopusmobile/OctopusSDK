@@ -29,6 +29,11 @@ Topon适配器SDK安装
 pod 'OctopusSDK/OctToponAdapterSDK'
 ```
 
+如果需要使用beta版SDK，可以指定git分支为main进行安装
+
+```ruby
+pod 'sdk名', :git => 'https://github.com/octopusmobile/OctopusSDK.git', :branch => 'main'
+```
 
 ## 工程设置
 
