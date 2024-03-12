@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   
   spec.author             = { "zhaojinlong" => "zhaojinlong@adintl.cn" }
   
-  spec.platform     = :ios, "12.0"
+  spec.ios.deployment_target = '12.0'
   spec.static_framework = true
   spec.libraries = ["c++"]
   spec.frameworks = 'SystemConfiguration', 'CoreGraphics','Foundation','UIKit', 'AppTrackingTransparency'
