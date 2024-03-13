@@ -38,4 +38,10 @@ Pod::Spec.new do |spec|
     ss.ios.deployment_target = '12.0'
     ss.vendored_frameworks = 'OctopusSDKNoShake/OctAdSDK.xcframework', 'OctopusSDK/OctCore.xcframework'
   end
+  spec.subspec 'OctToponAdapterSourceCodeSDK' do |ss|
+    ss.ios.deployment_target = '12.0'
+    ss.source_files = 'OctToponAdapterSourceCodeSDK/Classes/**/*'
+    ss.dependency 'AnyThinkiOS'
+    ss.dependency 'OctopusSDK/OctopusBaseSDK'
+  end
 end

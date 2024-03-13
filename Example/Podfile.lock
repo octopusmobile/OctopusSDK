@@ -1,14 +1,14 @@
 PODS:
-  - AnyThinkiOS (6.2.94):
-    - AnyThinkiOS/AnyThinkSDK (= 6.2.94)
-  - AnyThinkiOS/AnyThinkSDK (6.2.94)
-  - OctopusSDK/OctopusBaseSDK (1.5.9.13)
-  - OctopusSDK/OctToponAdapterSDK (1.5.9.13):
+  - AnyThinkiOS (6.2.96):
+    - AnyThinkiOS/AnyThinkSDK (= 6.2.96)
+  - AnyThinkiOS/AnyThinkSDK (6.2.96)
+  - OctopusSDK/OctopusBaseSDK (1.5.9.22)
+  - OctopusSDK/OctToponAdapterSourceCodeSDK (1.5.9.22):
     - AnyThinkiOS
     - OctopusSDK/OctopusBaseSDK
 
 DEPENDENCIES:
-  - OctopusSDK/OctToponAdapterSDK (from `../`)
+  - OctopusSDK/OctToponAdapterSourceCodeSDK (from `../`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -19,9 +19,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AnyThinkiOS: d20b81a5612ee7b2de905fd65d2bde227813abce
-  OctopusSDK: 0437e9bc14105be3aca555a11c252c008ea551be
+  AnyThinkiOS: 33b308c6ffa21ccc7e30ffae350fd47375e77fb7
+  OctopusSDK: e4df46af28c59aa0444eb311b3007475410242c8
 
-PODFILE CHECKSUM: 976142614411dd01a99c6d43d097adf7071700d3
+PODFILE CHECKSUM: 6978efa688c5c2cce3e6cc3ea96907b55f94410e
 
 COCOAPODS: 1.12.1
