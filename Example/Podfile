@@ -5,7 +5,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '12.0'
 
 target 'OctopusSDK_Example' do
-  pod 'OctopusSDK/OctToponAdapterSourceCodeSDK', path: '../'
+  pod 'OctopusSDK/OctToponAdapterSDK', path: '../'
 
   target 'OctopusSDK_Tests' do
     inherit! :search_paths
