@@ -16,6 +16,8 @@
 #define OCT_SDK_CAN_CUSTOM_SKIPVIEW 0
 #define OCT_SDK_CAN_SWITCH_CHANNEL 0
 
+#define OctWithTimeLog(format, ...) NSLog(@"%@", [NSString stringWithFormat:(format), ##__VA_ARGS__])
+
 #define OctAdLog(format, ...) printf("class: < %s:(%d行) > method: %s \n%s\n", [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, __PRETTY_FUNCTION__, [[NSString stringWithFormat:(format), ##__VA_ARGS__] UTF8String] )
 
 //  比例

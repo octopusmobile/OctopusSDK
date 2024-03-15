@@ -11,6 +11,6 @@
 
 - (NSString *)Oct_MD5Data;
 
-- (NSString *)base64EncodeData;
+- (NSString *)Oct_base64EncodeData;
 
 @end

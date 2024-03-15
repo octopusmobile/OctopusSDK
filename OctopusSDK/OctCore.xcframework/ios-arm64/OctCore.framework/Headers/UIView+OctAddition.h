@@ -26,9 +26,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) CGPoint oct_bottomRight;
 @property (nonatomic, readonly) CGPoint oct_topRight;
 
-- (void)setupCornerRadius:(CGFloat)cornerRadius;
-- (void)setupCornerRadius:(CGFloat)cornerRadius withBorderWidth:(CGFloat)width borderColor:(UIColor *)color;
-- (void)setupCornerRadius:(CGFloat)cornerRadius withType:(UIRectCorner)cornerType;
+- (void)oct_setupCornerRadius:(CGFloat)cornerRadius;
+- (void)oct_setupCornerRadius:(CGFloat)cornerRadius withBorderWidth:(CGFloat)width borderColor:(UIColor *)color;
+- (void)oct_setupCornerRadius:(CGFloat)cornerRadius withType:(UIRectCorner)cornerType;
 
 - (void)oct_fitWidth;
 - (void)oct_fitHeight;

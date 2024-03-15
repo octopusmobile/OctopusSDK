@@ -11,8 +11,8 @@
 
 - (NSString *)Oct_MD5String;
 //  加密
-- (NSString *)base64EncodeString;
+- (NSString *)Oct_base64EncodeString;
 //  解密
-- (NSString *)base64DecodeString;
+- (NSString *)Oct_base64DecodeString;
 
 @end

@@ -12,11 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 @interface NSData (OctAES)
 
 //加密
-- (NSData *)AES128EncryptWithKey:(NSString *)key iv:(NSString *)iv;
+- (NSData *)OctAES128EncryptWithKey:(NSString *)key iv:(NSString *)iv;
 
 
 //解密
-- (NSData *)AES128DecryptWithKey:(NSString *)key iv:(NSString *)iv;
+- (NSData *)OctAES128DecryptWithKey:(NSString *)key iv:(NSString *)iv;
 
 @end
 
